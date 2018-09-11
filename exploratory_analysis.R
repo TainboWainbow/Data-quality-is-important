@@ -1,4 +1,4 @@
-###SHOPIFY CHALLENGE 2017 PRACTICE###
+    ###SHOPIFY CHALLENGE 2017 PRACTICE###
 setwd("C:/Users/User/Desktop/SHOPIFY_CHALLENGE")
 getwd()
 dat=read.csv("Data.txt",header=TRUE,sep=",")
