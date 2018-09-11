@@ -1,15 +1,14 @@
-    ###SHOPIFY CHALLENGE 2017 PRACTICE###
+#Making sure that we are in the right working directory(adjust the code to your environment!)
 setwd("C:/Users/User/Desktop/SHOPIFY_CHALLENGE")
 getwd()
 dat=read.csv("Data.txt",header=TRUE,sep=",")
 
 #first I check the structure of the data
-
 head(dat)
-table(dat$order_amount) #I'll assume that the unit of order amount is in dollars
+str(dat)
 
-###########CLEANING DATA##########################################################################
-str(dat) #all the id's shouldn't be considered as numbers
+##########################CLEANING DATA###########################################################
+str(dat) #the id's shouldn't be considered as numbers
 library(dplyr)
 dat<-mutate_at(dat,vars(order_id:user_id),funs(as.character))
 library(tidyr)
@@ -24,7 +23,7 @@ sum(is.na(dat))
 summary(dat)  #there is no NA values, great! Now the data is ready for analysis
 
 ##There were no instructions given, so I will do some exploratory analysis with a question in mind
-########EXPLORATORY ANALYSIS######################################################################
+######################EXPLORATORY ANALYSIS#########################################################
 
 colnames(dat)
 #We will assume the following:
