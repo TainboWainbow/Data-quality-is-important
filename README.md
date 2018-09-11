@@ -8,5 +8,6 @@ Key:
 'order_amount' is the amount paid in dollar($) by the customer to make a transaction.
 
 Note: the data didn't contain a key to explain what each variable is precisely. (I made some assupmtions above)
-Note2: Data was found at 
+Note2: Data was found at
+
       GCCree/Data-Analytics-Challenge/Data Challenge Numbers - Fall 2017.csv
