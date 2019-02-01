@@ -1,5 +1,5 @@
 #Making sure that we are in the right working directory(adjust the code to your environment!)
-setwd("C:/Users/User/Desktop/SHOPIFY_CHALLENGE")
+setwd("C:/Users/User/Desktop/MY_DIRECTORY")
 getwd()
 dat=read.csv("Data.txt",header=TRUE,sep=",")
 
@@ -77,7 +77,7 @@ for (i in 1:30){
 #(we don't want draw false conclusions).
 
 
-######################FINAL THOUGHTS###########################################################
+################################ SUMMARY ########################################
 #we make the following hypotheses:
 
 ##It seems that for every hour and minute there is a customer making purchases. 
